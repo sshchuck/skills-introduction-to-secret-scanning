@@ -2,25 +2,30 @@
 
 ## Supported versions
 
-This repository is an educational exercise. Security fixes, if needed, will be made on the latest state of the default branch (`main`). Older commits and forks are not maintained.
+This repository is an educational exercise. The maintainers intend to address security issues, if any, in the latest state of the default branch (`main`). No maintenance or security updates are promised for earlier commits, branches, forks, or derivative works.
 
 ## Reporting a vulnerability
 
-Please do not report security vulnerabilities in public issues, discussions, or pull requests.
+Do not disclose suspected vulnerabilities or sensitive information through public issues, discussions, pull requests, or other public channels.
 
-Use GitHub's private vulnerability reporting feature from this repository's **Security** tab to send a report privately. Include as much of the following as you can:
+Submit reports through GitHub's private vulnerability reporting feature available from this repository's **Security** tab. If that feature is unavailable, contact the repository owner through the contact information available on their GitHub profile: https://github.com/sshchuck. Do not include exploit details, credentials, personal information, or other sensitive material in a public issue requesting a private channel.
 
-- A description of the issue and its potential impact.
-- The affected file, workflow, or commit, if known.
-- Clear steps to reproduce the issue, preferably using a local or disposable test environment.
-- Any suggested mitigation.
+A report should, where reasonably practicable, include:
 
-If private reporting is not available, do not post sensitive details publicly. Open a non-sensitive issue asking the maintainer for a private reporting channel, or contact the repository owner through the contact information on their GitHub profile: https://github.com/sshchuck.
+- A description of the suspected vulnerability, its potential impact, and the circumstances in which it may be exploited.
+- The affected file, workflow, commit, or other relevant component, if known.
+- Sufficient details to reproduce or validate the issue safely, preferably in a local or disposable environment.
+- Any proposed mitigation or remediation.
+- Whether the issue is known to have been disclosed or reported elsewhere.
 
-Please allow the maintainer reasonable time to investigate and address a report before publicly disclosing it. The maintainer will make a best effort to acknowledge reports and provide updates, but no response or remediation timeframe is guaranteed.
+Please allow the maintainers a reasonable opportunity to assess and, where appropriate, address the report before making information about it public. The maintainers may request additional information. They will make a best effort to acknowledge and review good-faith reports, but no particular response, remediation, or disclosure timeline is guaranteed.
 
-## Scope and safe testing
+## Scope and limitations
 
-Reports about this repository's content, exercise instructions, or GitHub workflows are in scope. This policy does not authorize testing GitHub or any other third-party service. Do not access, modify, or disrupt data or systems that you do not own or have explicit permission to test.
+This policy applies only to suspected vulnerabilities in this repository's content, exercise instructions, configuration, and GitHub workflows. It does not grant permission to access, test, interfere with, or modify GitHub systems, third-party services, accounts, data, or infrastructure, or any system for which you do not have explicit authorization from its owner.
 
-If you discover a real credential in the repository, do not try to use it. Report it privately and, if it is yours, revoke or rotate it immediately.
+Nothing in this policy authorizes conduct that would otherwise violate applicable law, the rights of any person, or the terms governing a system or service. Do not intentionally access, alter, delete, or disclose data that is not yours; degrade service; or use a discovered credential. If testing reveals sensitive data or a live secret, stop testing and report the finding privately. If the exposed secret belongs to you, revoke or rotate it promptly.
+
+## No commitment or safe harbor
+
+This policy is not a contract, a guarantee that a report will be accepted or acted upon, an authorization to conduct security testing, or a promise of compensation. The maintainers reserve the right to determine whether a report is in scope and how it will be handled, subject to applicable law. No bounty or other reward is offered unless separately agreed in writing.
